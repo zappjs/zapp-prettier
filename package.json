@@ -1,0 +1,11 @@
+{
+  "name": "@zappjs/prettier",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
