@@ -1,6 +1,9 @@
 export const PrettierConfigSchema = {
   type: 'object',
   properties: {
+    parser: {
+      type: 'string'
+    },
     printWidth: {
       min: 1,
       type: 'number'
