@@ -3,10 +3,12 @@
   "version": "0.1.4",
   "main": "dist/index.js",
   "dependencies": {
-    "@zappjs/core": "^2.0.0-alpha.1",
-    "@zappjs/json": "^0.1.2"
+    "@zappjs/core": "^2.0.0-alpha.2",
+    "@zappjs/json": "^0.1.2",
+    "prettier": "^1.18.2"
   },
   "devDependencies": {
+    "@types/prettier": "^1.16.4",
     "typescript": "^3.5.2"
   },
   "scripts": {
