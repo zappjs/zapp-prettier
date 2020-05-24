@@ -3,5 +3,6 @@ export interface IPrettierConfigSpec {
   printWidth?: number;
   singleQuote?: boolean;
   tabWidth?: number;
+  trailingComma?: 'all' | 'es5' | 'none';
   useTabs?: boolean;
 }

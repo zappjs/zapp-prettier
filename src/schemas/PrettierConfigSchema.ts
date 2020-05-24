@@ -14,6 +14,10 @@ export const PrettierConfigSchema = {
     tabWidth: {
       type: 'number'
     },
+    trailingComma: {
+      enum: ['all', 'es5', 'none'],
+      type: 'string'
+    },
     useTabs: {
       type: 'boolean'
     }
